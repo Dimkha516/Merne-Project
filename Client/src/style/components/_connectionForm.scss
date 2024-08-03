@@ -1,0 +1,31 @@
+.connection-form {
+  .form-container {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    // width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    // justify-content: space-between;
+    background-color: rgb(243, 180, 191);
+    // padding: 30px 18px;
+    border: solid 5px rgb(243, 180, 191);
+    border-radius: 18px;
+
+    ul {
+      li {
+        cursor: pointer;
+        padding: 20px auto;
+        color: rgb(105, 96, 96);
+        font-size: 1.2rem;
+      }
+    }
+
+    .active-btn {
+      background-color: rgb(241, 161, 146);
+      padding: 5px;
+      text-align: center;
+      border: solid rgb(228, 130, 112) 2.5px;
+      border-radius: 15px;
+    }
+  }
+}

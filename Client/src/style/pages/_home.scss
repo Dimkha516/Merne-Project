@@ -1,0 +1,10 @@
+.home {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  background-color: rgb(255, 254, 254);
+
+  .right-nav {
+    border: solid pink 5px;
+  }
+}

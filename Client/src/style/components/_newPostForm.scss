@@ -1,0 +1,100 @@
+.new-post-container {
+  border-radius: 25px;
+  margin-top: -30px;
+  background-color: rgb(245, 199, 206);
+  text-align: center;
+
+  .poster-infos {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    img {
+      margin-top: -5px;
+      height: 65px;
+      width: 85px;
+      border-radius: 15px;
+    }
+  }
+  .new-post-form {
+    textarea {
+      margin-top: -18px;
+      height: 45px;
+      width: 500px;
+      border-radius: 15px;
+      resize: none;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+
+  .preview-post {
+    margin-top: -15px;
+    background-color: white;
+    border: solid 3px rgb(182, 140, 147);
+    border-radius: 25px;
+    img {
+      // margin-top: -0.2px;
+      height: 50px;
+      width: 70px;
+      border-radius: 15px;
+    }
+    .preview-header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -10px;
+      .preview-left-header {
+        display: flex;
+      }
+      .preview-right-header {
+        margin-top: 15px;
+        opacity: 0.5;
+        font-weight: 850;
+      }
+    }
+    .preview-contain {
+      p {
+        font-size: 1.2rem;
+        text-align: start;
+        margin-top: -5px;
+      }
+    }
+  }
+  .new-post-footer {
+    img {
+      margin-top: -5px;
+      height: 35px;
+      width: 55px;
+      border-radius: 15px;
+    }
+    input[type="file"] {
+      visibility: hidden;
+    }
+    label {
+      cursor: pointer;
+      border: solid aliceblue 2px;
+      border-radius: 11px;
+      padding: 5px;
+      font-weight: 800;
+      background-color: rgb(250, 235, 215);
+      color: brown;
+    }
+    .post-buttons {
+      margin-left: 45%;
+      .cancel-post {
+        background-color: tomato;
+        color: white;
+        font-size: 12px;
+        height: 5vh;
+        border-radius: 15px;
+        width: 100px;
+      }
+      .send-post {
+        background-color: darkblue;
+        color: white;
+        font-size: 12px;
+        height: 5vh;
+        border-radius: 15px;
+        width: 100px;
+      }
+    }
+  }
+}

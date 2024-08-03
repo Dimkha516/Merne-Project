@@ -1,0 +1,28 @@
+.upload-img {
+  .upload-img-form {
+    input[type="file"] {
+      visibility: hidden;
+    }
+    label {
+      background-color: rgb(34, 34, 78);
+      color: aliceblue;
+      padding: 5px;
+      font-size: 1.2rem;
+      border: solid 5px rgb(34, 34, 78);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    input[type="submit"] {
+      background: pink;
+      color: tomato;
+      font-weight: 900;
+      font-size: 1rem;
+      width: 55%;
+      padding: 8px;
+      border: tomato;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  }
+}

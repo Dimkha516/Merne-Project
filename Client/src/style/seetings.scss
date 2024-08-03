@@ -1,0 +1,23 @@
+* {
+  margin: 10px;
+  // padding: 1.2px;
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: brown;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.2rem;
+  }
+}
+
+$font-1: Nova Round;
+$font-2: Dosis;
+$font-3: Josefin Sans;
+$font-4: "Nova Round", cursive;
+$font-5: "Dosis", sans-serif;
+$font-6: "Josephin Sans", serif;
